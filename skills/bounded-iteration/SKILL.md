@@ -19,7 +19,7 @@ Normalize three local sample files so a second run produces no changes.
 
 **Expected result.** All three outputs match the expected form and a second pass has an empty diff, or the report names the remaining mismatch.
 
-For three tracked files, compare the first output against the expected fixture, then hash all three outputs again after the second run. A successful second invocation can still have rewritten a file.
+Check the first normalization against all three expected files. Hash each result before and after another run. Equal hashes prove byte stability. If the contract also forbids rewriting an unchanged file, check modification events or timestamps with adequate resolution. Accept a partial improvement as a new baseline only if it still passes the earlier checks.
 
 **Limit.** Choose a finite input set and a local, reversible operation.
 

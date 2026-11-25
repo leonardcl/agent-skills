@@ -19,6 +19,6 @@ A patch changes date sorting and adds a test for equal dates.
 
 **Expected result.** A review description covers the tie case, the passing command and remaining integration risk.
 
-“Stable on equal dates” is checkable. Show the two equal-date entries in their original order, give the expected order after sorting, and identify the test that exercised the branch.
+For equal-date entries arriving as B, A, show whether they remain B, A and which check exercised that case. Distinguish a code-only rollback from persisted changes. If sorting only affects rendering, reverting can restore the previous view. If a migration rewrote stored order, say what evidence or backup would be needed to recover it.
 
 **Limit.** Draft text alone does not establish that CI ran or that a change was merged.

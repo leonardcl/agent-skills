@@ -9,9 +9,9 @@ Design a transition that explains an interface state change.
 
 ## Workflow
 
-1. Identify the entering and departing elements and keep a stable visual anchor.
-2. Choose the properties that express continuity, interrupt the animation halfway and test the final state after rapid toggles.
-3. Compare full-motion and reduced-motion paths using the same sequence of actions.
+Identify the state change the user could lose track of and the element that should stay anchored. If revealing the details already makes the change clear, a direct swap can suffice. For an expanding panel, keep its trigger in place while the content changes.
+
+Choose the smallest property change that conveys the relationship. Reverse the action during entry. A panel that restarts from its fully open height will jump. Retarget it from its current position. Under reduced motion, remove the travel while preserving the same expanded state, focus and available controls. Check a second rapid toggle for stale hit targets.
 
 ## Try it
 

@@ -9,9 +9,11 @@ Save, find and connect evidence in a user-selected Markdown notebook.
 
 ## Workflow
 
-1. Take the notebook directory explicitly from the user or NOTEBOOK_DIR. Resolve the directory and read its index and naming convention.
-2. Find an existing note by topic and inspect its surrounding section. Append the observation with its source, date if known and the question left open.
-3. Link the note from the relevant index using the notebook's conventions. Reopen the actual files and report the relative path and heading.
+Use the directory named in the request first, then NOTEBOOK_DIR if the request gives no location. Resolve it and read a nearby note and the relevant index. Search titles, aliases and body text. When titles collide, follow the index path and compare the surrounding evidence before choosing a destination.
+
+For a lookup, answer from the passages you found and give paths and headings. For a save, append to the existing topic or create a note beside comparable entries. Credit the source and its date when known. Preserve earlier evidence when a later report disagrees. Record what changed and what remains unknown. If the same source already records the observation, reuse it.
+
+Use the notebook's existing link style. Resolve the link from the index file's own directory and open its target, including the heading if present. Qualify ambiguous links with their folder. Report the note and section so the reader can reopen them.
 
 ## Try it
 

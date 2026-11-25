@@ -9,9 +9,11 @@ Write agent instructions with a precise trigger and observable completion criter
 
 ## Workflow
 
-1. Replace the vague trigger with the user request that selects the workflow. Identify a nearby request that should take a different path.
-2. Name the artifact each step reads or produces. Move conditional background behind a reachable relative link.
-3. Run a small example from a fresh directory, open the referenced resources and compare the result against the stated completion condition.
+Separate discovery from execution. If the wrong requests select a skill, try the intended request and a neighboring request against its description. If the right skill opens but the work fails, inspect the step where the agent made a different decision.
+
+Write the missing input, choice or observable stopping condition at that step. Remove sentences whose absence leaves the work unchanged. Put optional mechanics behind a relative link with a reason to open it. Resolve that link from a standalone copy of the instructions.
+
+Give a fresh reader the skill, a disposable input and an ordinary task. Keep the expected answer with the reviewer. Open what the reader produced and exercise the result. If the notebook link opens the wrong heading, fix the destination check and try a new copy of the notebook. A reader's statement that the link works is only a lead.
 
 ## Try it
 

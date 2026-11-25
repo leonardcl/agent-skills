@@ -11,9 +11,9 @@ Use this workflow when the user selects it or specifically asks for this deliver
 
 ## Workflow
 
-1. Trace a representative user journey, then record entry state, action and observable outcome.
-2. Define ambiguous terms and how missing or stale data behaves. Record unresolved policy separately.
-3. Give each requirement an acceptance example and map examples back to the original decision notes.
+Start with a settled decision and trace one user journey from entry state through action to observable result. Define ambiguous terms with contrasting examples. A saved paragraph might mean the last one opened or the last one completed. Those differ when a reader leaves halfway through.
+
+Separate current implementation facts from assumptions the design depends on. Verify that saved paragraph IDs survive edits before relying on them. If that is unknown, name the missing evidence. Give each agreed rule an acceptance example and a boundary at which to check it. Keep unresolved product choices visible so implementers can tell which cases are ready.
 
 ## Try it
 

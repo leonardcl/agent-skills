@@ -9,9 +9,9 @@ Review a change against its intended behavior and the callers relying on it.
 
 ## Workflow
 
-1. Read the change and establish its public contract from callers and tests.
-2. Trace empty input, ordinary input and input where spaces carry meaning. Identify the first observable divergence.
-3. Write each finding with file location, a minimal example and user impact. Rerun an existing check where possible.
+Read the intended behavior, base, patch and removed lines. Map each changed assumption to a caller or stored input it can affect. Pick an ordinary input and the nearest case where the old and new rules differ. For trimming, those might be an empty field, a field containing one space and a header with a leading space.
+
+Drive the distinguishing input through the caller. Compare the outcome to the specification and, where possible, the base revision. Report a regression when the patch changes behavior a caller relies on. Mark an existing problem separately and show the supporting input. Give a file location and consequence for each finding, with the most consequential first.
 
 ## Try it
 

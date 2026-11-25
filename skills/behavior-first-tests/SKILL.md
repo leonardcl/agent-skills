@@ -9,9 +9,11 @@ Grow a change one observable behavior at a time.
 
 ## Workflow
 
-1. Write a test at the public boundary for one concrete empty list. Run it and confirm its failure describes the missing behavior.
-2. Make the smallest change that passes. Add a nonempty-list example before refactoring shared rendering.
-3. Rerun both examples after cleanup and retain the output that proves the new path was exercised.
+Pick one promised result and the closest entry point that can produce it. Derive the expected value from the caller's contract. For an empty reading list, assert on the message a reader sees. Calling a helper that counts items misses a view that never displays the result.
+
+Run the test against the old behavior. If it passes, check whether the feature exists already or whether the assertion misses the symptom. A missing dependency or broken fixture is a setup failure. Resolve that first, then get a failure on the intended assertion.
+
+Implement that behavior and rerun the check. Add the next case where the contract changes, such as a populated list that should still show its first book. Refactor with both cases passing.
 
 ## Try it
 

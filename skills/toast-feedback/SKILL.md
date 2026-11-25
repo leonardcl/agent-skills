@@ -19,6 +19,6 @@ Saving a local note may succeed, fail or be retried.
 
 **Expected result.** One feedback sequence per save, an actionable error and no accumulating duplicate notifications.
 
-Associate the final result with the pending operation's identifier. A success toast alongside a stale pending toast is a failed replacement even if both messages are individually correct.
+If no message appears, trigger a simple notification inside the existing host before debugging the save callback. If pending never clears, compare the identifiers used to create and update it. Give independent saves distinct identifiers. For a retry on the same note, guard against an older completion replacing the current result. Force the first attempt to finish last and verify that the message still describes the latest save.
 
 **Limit.** Long-lived or blocking problems need a durable surface.

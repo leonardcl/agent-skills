@@ -21,6 +21,6 @@ Three review rounds were needed because two terms meant different things.
 
 **Expected result.** A dated observation, an evidence-backed hypothesis and a measurable next experiment.
 
-If a disagreement appeared only after review, compare the original brief with the first conflicting comment. Test a one-line glossary on the next brief and count clarification rounds.
+Compare the original brief with the first conflicting comment. If both readers used the term correctly and a later scope change caused the extra review, a glossary would address the wrong problem. Otherwise try defining the disputed term in the next brief and count clarification rounds. State what result would lead the owner to drop the experiment.
 
 **Limit.** Avoid attributing intent to people from timestamps alone.

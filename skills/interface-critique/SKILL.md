@@ -19,6 +19,6 @@ A settings screen hides the save action below unrelated options.
 
 **Expected result.** A prioritized report with locations, user consequences and a repeatable task.
 
-A save control reachable only below unrelated preferences adds navigation work. Record the starting viewport and the actions needed to finish saving.
+Record the starting viewport and the actions needed to save. A control reached by scrolling adds effort. A control hidden behind a panel the user cannot dismiss prevents completion. Give these different priorities. When several screens repeat one cause, cite a representative screen and list the affected paths.
 
 **Limit.** A single review cannot establish frequency across a user population.

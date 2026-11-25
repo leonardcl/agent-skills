@@ -19,6 +19,6 @@ A library catalog landing page repeats its heading on every card.
 
 **Expected result.** An annotated finding ties the repetitive heading to a real navigation problem and shows a clearer version.
 
-A repeated heading earns its space when it labels a distinct group. If all cards repeat the page title, replace it with the unique topic and test whether readers can locate one entry.
+Cover the repeated label and try to find a specific entry. If the useful distinctions disappear, keep the grouping cue. If all cards lose only the same page title, try the topic name in its place. Prioritize controls that mislead or block the task before stylistic preferences. In a review, show the location and a proposed change. On an editing request, verify the changed view and its primary action.
 
 **Limit.** Visual preferences need the brief or a usability observation to justify a finding.

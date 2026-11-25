@@ -19,6 +19,6 @@ A two-line caption appears just before a cut in a silent how-to video.
 
 **Expected result.** A timecoded finding and a revised sequence where the whole sentence can be read over the intended shot.
 
-Record the caption's last complete reading frame and the cut frame. When they coincide, move the caption or edit point and replay the whole sentence at normal speed.
+Compare the time needed to read the whole sentence at normal speed with its uninterrupted visible interval. Ending on a cut can work if the sentence is already readable. When a word first becomes legible on the last frame, start the caption earlier, shorten the wording or move the cut. Check the resulting interval against the brightest frame it now crosses.
 
 **Limit.** Frame inspection alone cannot confirm how an audio cue feels at playback speed.

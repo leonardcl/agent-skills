@@ -19,6 +19,6 @@ An older async lookup completes after a newer query and overwrites its result.
 
 **Expected result.** The newer query remains visible and cancelled work cannot overwrite its result.
 
-Start query A, then B, and deliver A last. The final published result should still belong to B; main-actor isolation alone does not establish response ordering.
+Use controlled completions so B succeeds before A returns, then repeat with A failing. A stale error or a stale completion that clears B’s loading state can be just as visible as a stale value. Compare the request identity at publication after each suspension that can outlive the current request. Cancellation alone is sufficient only if the operation and its callbacks honor it.
 
 **Limit.** Compiler diagnostics depend on the installed Swift version and isolation settings.

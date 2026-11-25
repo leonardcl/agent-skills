@@ -9,9 +9,9 @@ Check code changes for correctness, maintenance cost and preserved caller contra
 
 ## Workflow
 
-1. Identify which callers distinguish zero from missing and read their expectations at the boundary.
-2. Trace a missing value, an actual zero and a normal value through the changed code. Compare the observable results.
-3. Report only findings backed by a location, consequence and checkable example. Include a minimal corrective direction.
+Start at the changed boundary and read a caller that consumes its result. Write down the distinctions that caller needs to preserve. Missing and zero matter for an average, while a count label might intentionally show the same fallback for both. Look at the reader, writer and error path before recommending a change to a shared default.
+
+Follow a pair of inputs that would separate the old and new contracts. With scores of 8 and missing, ignoring the absent score yields 8. Replacing it with zero yields 4. Verify which rule the application promises and where the conversion happens. Report the smallest example that demonstrates a consequence, its location and which callers you checked.
 
 ## Try it
 

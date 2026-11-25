@@ -9,9 +9,11 @@ Prepare a checkpoint that another person can resume from a clean checkout.
 
 ## Workflow
 
-1. Record the revision, changed files and command that last passed. Separate committed changes from working edits.
-2. Write the smallest action that tests the open case and describe its expected output.
-3. Read the handoff cold. Verify referenced paths and state which prerequisite another machine needs.
+Write down the intended result and where work stopped. Inspect the current revision, tracked changes and untracked inputs. Identify what a checkout at that revision actually contains. A locally passing command that depends on a working edit or fixture needs a way to recover that exact input. Name an available patch or artifact and its base, or mark the step blocked until the author supplies it. A path on the first machine alone cannot transfer the work.
+
+Give the last observed command, working directory, prerequisites and result. For the next action, name a single unresolved question, the command or input that distinguishes its outcomes, and what each outcome means. Mark a proposed command as unrun until someone tries it.
+
+On resuming, compare the handoff's revision and required files to the checkout in front of you. If they differ, state what changed before carrying forward a test result. Verify that the paths and instructions in the handoff make sense to a reader who has no chat history.
 
 ## Try it
 

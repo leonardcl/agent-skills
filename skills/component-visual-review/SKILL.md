@@ -19,6 +19,6 @@ Two actions in a confirmation dialog appear equally prominent.
 
 **Expected result.** A state-by-state review and an example that makes the consequential choice recognizable.
 
-The visual emphasis of a destructive action and its keyboard default are separate decisions. Check the initially focused button and the result of pressing Return.
+Record which action draws attention, which gets initial focus and what Return actually does. A prominent destructive button can still leave the safe action focused. If the primary action changes while a request is pending, check the same keys again and ensure its visible label still describes the result. Compare identical dialog content when assessing an emphasis change.
 
 **Limit.** A static design cannot demonstrate that a control works.

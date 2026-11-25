@@ -19,6 +19,6 @@ Document a reading interface whose sidebar collapses on small screens.
 
 **Expected result.** A short design spec containing token values, sidebar behavior and an example of visible keyboard focus.
 
-“Sidebar collapses” leaves keyboard behavior undecided. Record whether focus moves to the opener when a focused item disappears, then exercise the breakpoint with focus inside the sidebar.
+With focus on a sidebar link, shrink the viewport through the actual transition width. Record the disappearing element, the new focus target and the control that restores the menu. Sample a second occurrence before naming a reusable token. If two identical-looking gaps come from different layout rules, document the local exception.
 
 **Limit.** A single screenshot cannot establish interaction or dark-theme behavior.

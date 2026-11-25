@@ -19,6 +19,6 @@ Revise “Silakan melakukan pengecekan jadwal Anda” for a formal notice.
 
 **Expected result.** For this notice, “Silakan periksa jadwal Anda” keeps the formal register and the requested action.
 
-“Silakan periksa jadwal Anda” keeps the invitation formal and identifies the action. A change to kamu would also change the reader relationship.
+Compare “Jadwal tersedia di kantor” with “Jadwal diperbarui setiap Senin.” The first names a place. In the second, the prefix belongs to the verb. Preserve the source’s frequency and form of address when you simplify the surrounding sentence.
 
 **Limit.** Specialist terminology and exact quotations can warrant retaining a less common form.

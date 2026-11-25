@@ -21,6 +21,6 @@ Compare a grouped list with a compact table for browsing a reading list.
 
 **Expected result.** Two alternatives with comparable evidence and a reason to select one for the stated task.
 
-Use the same title and date columns in the grouped and tabular versions. A version containing extra metadata would make the selection task incomparable.
+Give both versions the same titles and dates. Ask a reader to find the most recent entry in a named group. A visible group heading may shorten the first part of that search, while aligned dates can shorten the second. Keep the choice reversible until the user picks a version. After selection, carry its working behavior into the real view and check it with the comparison switch removed.
 
 **Limit.** A preferred appearance alone does not establish task performance.

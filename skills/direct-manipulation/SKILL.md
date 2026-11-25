@@ -9,9 +9,9 @@ Design a gesture-driven interaction with continuity, cancellation and a clear re
 
 ## Workflow
 
-1. Identify the same object before and after the transition. Keep the user's touch point attached to its visual position.
-2. Specify release behavior for a slow partial drag, reversal and fast completion. Preserve a non-gesture route.
-3. Drive each case and verify that the destination can immediately accept the next interaction.
+Follow the same object from pickup through release. Track the offset between touch and object. When a user grabs the preview again during its return animation, start the new drag from its visible position. Restarting at the thumbnail introduces a jump.
+
+Define how distance and release velocity choose between returning and dismissing. Try a slow drag just short of the boundary, a quick flick from the same position and a reversal before release. Check that focus, hit target and dismiss state agree after each settles. Provide a button or keyboard route to the same destination.
 
 ## Try it
 

@@ -19,6 +19,6 @@ A list reorders after a filter and a static title is also suggested for animatio
 
 **Expected result.** A ranked proposal for the reorder and a reason for keeping the static title still.
 
-The reordered list has a continuity problem a small transition can explain. A stationary title needs an independent reason to move.
+Compare following one item through a single reorder with applying five filters in succession. If the item is easier to follow once but repeated movement holds up the next selection, shorten or omit the movement on that path. A stationary title has no changed relationship to explain. Include rejected candidates so the next designer can see which tasks should remain immediate.
 
 **Limit.** A proposal does not establish that the resulting animation performs well.

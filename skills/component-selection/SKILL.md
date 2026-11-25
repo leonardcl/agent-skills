@@ -11,9 +11,9 @@ Use this workflow when the user selects it or specifically asks for this deliver
 
 ## Workflow
 
-1. List required behaviors, framework version, license and bundle constraints before comparing packages.
-2. Build the same small interaction with the leading option. Check locale parsing, keyboard navigation and dependency fit.
-3. Record the deciding evidence and conditions that would favor a simpler native control.
+Start with the controls and dependencies already available in the project. Use a representative interaction to decide what is missing. For a date picker, establish whether the requirement concerns display, typed input, stored value or all three. A correctly translated month label tells you nothing about parsing an ambiguous numeric date.
+
+Compare only candidates that meet the required platform and license constraints. Exercise the deciding case with the installed version: type a date whose day and month can be swapped, navigate by keyboard, submit and read back the stored date. Compare that result with the expected date in the requested locale. Prefer the existing control when it passes the same case. Record the failing requirement if an additional dependency earns its place.
 
 ## Try it
 

@@ -21,6 +21,6 @@ Compare an inline and a drawer-based filter for a small list.
 
 **Expected result.** Two working alternatives with the same task and a mechanism for selecting or documenting the chosen one.
 
-Preserve the same selected filter and list contents in both variants. A drawer that clears the selection on close tests a different behavior from an inline control that retains it.
+Start both versions with the same filter and list. Apply one filter in A, switch to B, then return to A. A should retain its edit and B should still have its own starting state. Reset each version before timing the same task. Keep a way to reopen the chosen version directly when handing the comparison to another reader.
 
 **Limit.** Differences in unrelated content confound a comparison.

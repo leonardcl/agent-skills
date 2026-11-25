@@ -19,6 +19,6 @@ A drag-to-dismiss sheet snaps back when released below a threshold.
 
 **Expected result.** The sheet settles predictably and cancellation leaves content and focus intact.
 
-A drag released below the dismiss threshold should return to its resting position without losing focus or committing dismissal.
+During the return animation, touch the sheet again and drag in the opposite direction. Resume from the displayed offset and invalidate the old completion callback. Only the currently completing dismissal may remove the sheet. Verify that cancellation keeps it mounted, focusable and ready for the second drag. Keep per-frame position updates on the animation runtime when the installed library supports it.
 
 **Limit.** Simulator timing does not establish physical-device performance.

@@ -9,9 +9,11 @@ Audit existing animation code and prioritize fixes with reproducible evidence.
 
 ## Workflow
 
-1. Locate the actual triggers and rendering properties. Record device, input sequence and reduced-motion preference.
-2. Distinguish layout work, interrupted transitions and state bugs by varying one condition at a time.
-3. Rank each finding by impact and give a verification recipe a second developer can run.
+Find the event handler, state change and properties that actually animate. Capture the reported input sequence, viewport and motion setting. Compare one open with open–close–open at the same size and with the same data.
+
+Inspect a timeline for the moment of the hitch. Repeated layout work suggests testing which geometry change causes it. If frames arrive on time but the drawer jumps back, inspect its start value on reversal. If it looks closed but still takes clicks, inspect the settled state and hit area. Each observation points to a different repair.
+
+Report the earliest confirmed cause and a way to replay it. Rank blocked or incorrect interactions ahead of cosmetic differences and identify where measurement on the target device remains necessary.
 
 ## Try it
 

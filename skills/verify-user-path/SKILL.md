@@ -11,9 +11,11 @@ Use this workflow when the user selects it or specifically asks for this deliver
 
 ## Workflow
 
-1. Find the documented entry point. Start in a disposable data directory, record the build and perform a read-only readiness check.
-2. Drive save and reopen through normal commands. Capture both the command results and the resulting file.
-3. Clean up only processes and data created by the run. Reopen retained evidence and document the failure signal for the next reader.
+Identify the user's entry point and the effect that can outlive the process, request or screen. Find the project's normal startup and readiness signal. Record prerequisites, use a disposable data location and avoid using a pre-existing process as proof that the tested build started.
+
+Choose an input that makes a false pass visible. Save a distinctive position, close the process and reopen the same notebook in a new process. Check the position itself. As a control, a fresh notebook should open at its documented default. If both show the saved value, inspect which data directory the app actually opened.
+
+Keep the command, expected result, actual result and evidence needed to replay it. Stop only resources created for this run and verify the evidence remains readable after teardown.
 
 ## Try it
 

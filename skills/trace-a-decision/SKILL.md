@@ -9,9 +9,9 @@ Explain how a behavior works or why a design changed using repository evidence.
 
 ## Workflow
 
-1. Trace one example from input to output and locate the first line that preserves the blank line.
-2. For historical intent, find the introducing change and read the surrounding discussion or test. Keep mechanism and motivation separate.
-3. Cite the strongest primary artifact for each claim and state what evidence would resolve gaps.
+For a question about *how*, follow one input through its normal entry point to the first transition that accounts for the observed output. Read the caller as well as the function. A parser may preserve a blank line even when the renderer later drops it.
+
+For *why*, find the change that introduced the behavior. Inspect its parent, the test added with it and any linked decision. A blame line that only reformats the code can take you to the wrong change. Give the path or revision supporting each claim. If history establishes when behavior changed but contains no rationale, report the date or revision and leave the reason open.
 
 ## Try it
 

@@ -9,9 +9,9 @@ Review semantic controls, focus movement and error recovery.
 
 ## Workflow
 
-1. Inspect the field's accessible name, required state and error association.
-2. Submit an empty value with the keyboard. Locate focus and the announced feedback, then correct the value.
-3. Check the valid path and record the specific semantics and behavior needed for recovery.
+Start with the control's job. A link navigates, a button performs an action, and an input needs a persistent label. Use the native element's keyboard behavior as the comparison. A styled label that responds to a click may have no keyboard or accessibility-tree counterpart.
+
+Track focus through activation and recovery. In a modal, Tab should remain among its controls and dismissal should restore a usable focus target. On a failed form submission, inspect the invalid field's accessible name, invalid state and error description. Correct the value and submit again. Record the keys pressed, resulting focus and any stale error. Credit an announcement only if you heard it with the named assistive technology.
 
 ## Try it
 

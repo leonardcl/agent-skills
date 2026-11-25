@@ -19,6 +19,6 @@ Guide someone through selecting a notes folder and verifying write access.
 
 **Expected result.** A guide that resumes at the first unfinished stage and identifies an invalid folder before proceeding.
 
-Restart after choosing the folder but before writing a sample. The second run should detect the selected folder, perform the missing check and leave an unrelated file intact.
+A saved folder choice records intent. Recheck that the directory still exists, then create and remove a uniquely named scratch file there to prove write access. If that fails after a restart, resume at folder selection or permissions with the exact failing path. Retain unrelated files and skip later steps that depend on successful writing.
 
 **Limit.** A setup guide must not treat reading the instructions as completing a step.

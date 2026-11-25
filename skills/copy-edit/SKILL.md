@@ -9,9 +9,9 @@ Revise audience-facing copy while preserving the author's voice and supporting f
 
 ## Workflow
 
-1. Find the visitor's actual decision and the source facts about the exhibit.
-2. Replace unsupported descriptions with one concrete detail. Preserve proper names, registration terms and accessibility information.
-3. Read the invitation aloud, check it against the supplied source, and test the action text in context.
+Read a short passage of the author's approved copy beside the draft. Identify the audience's next decision and the voice features worth keeping, such as a direct invitation or a recurring technical term. Preserve quoted wording and source facts when cutting.
+
+Find the sentence that makes the largest unsupported claim. Replace it with a supplied detail the reader can verify. For a museum invitation, a curator's note about three hand-bound maps can support “See three hand-bound maps.” A claim about this being the first exhibit of its kind needs a separate source. If the brief lacks a detail, omit the claim and ask for that detail separately. Read the revision with the surrounding passage and check the names, terms and action.
 
 ## Try it
 

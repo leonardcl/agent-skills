@@ -9,9 +9,9 @@ Define usable semantic colors for interface states.
 
 ## Workflow
 
-1. Collect the rendered color pairs in each supported theme. Distinguish semantic role from palette shade.
-2. Measure foreground/background contrast and check whether a shape, icon or label also communicates state.
-3. Revise the semantic mappings and compare selected, warning and disabled states side by side.
+Inventory colors by what they communicate in the actual UI. Map each role to a foreground, background and any border in each theme. Two roles can share a palette shade until their behavior diverges. If warning text and selected text both use one generic accent, changing it to fix an alert can silently recolor the selection.
+
+Measure the pair at the place it appears, after any transparency is composited. Compare selection alone, warning alone and a selected row with a warning. Give each meaning a cue that survives all three states, such as a selection mark beside the title and a warning label beside the affected value. Record the rendered pair and recheck its other consumers when a shared token changes.
 
 ## Try it
 

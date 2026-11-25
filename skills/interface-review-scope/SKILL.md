@@ -11,9 +11,9 @@ Use this workflow when the user selects it or specifically asks for this deliver
 
 ## Workflow
 
-1. List the entry path, states and requested exclusions. Reach each state with representative local inputs.
-2. For each observed issue record the exact control, consequence, evidence and smallest repair.
-3. Reconcile the final report with the scope, including states that could not be reached and why.
+Locate the requested screen or change, its entry point, changed states and exclusions. If the task concerns a patch, inspect the base and removed behavior as well as the new screen. Map the affected part of the diff to something a user can see or operate.
+
+Drive the same sequence on comparable inputs. Distinguish a newly introduced failure, an older issue that the change exposes and a state you could not reach. For example, losing focus on export retry is a regression only if the previous route retained useful focus. Record the exact control, consequence and evidence. Give the smallest repair within scope and account for each requested state.
 
 ## Try it
 

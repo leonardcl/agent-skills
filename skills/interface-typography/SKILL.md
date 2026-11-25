@@ -9,9 +9,9 @@ Choose and check typography for real interface content.
 
 ## Workflow
 
-1. Collect representative short, long and multilingual strings. Identify the hierarchy and available width.
-2. Set type size, weight, line-height and wrapping as a system. Test enlarged text and font fallback.
-3. Inspect clipping, misleading truncation and punctuation in context, then record the relevant tokens.
+Collect real strings that stress different roles: a title that wraps, two neighboring numeric values and a label in a second script. Set size and line height by reading task. Keep tabular figures aligned where readers compare values and give prose enough width to wrap naturally.
+
+Inspect the intended font and its fallback at increased text size. If a title disappears, check the container height and wrapping before shrinking the type. If truncation is necessary, make the full title available by keyboard and touch. Compare the same content before and after the change, including the longest label and any emphasized text.
 
 ## Try it
 

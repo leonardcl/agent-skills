@@ -21,6 +21,6 @@ Two contributors disagree about labels and sorting for a book index.
 
 **Expected result.** A short questionnaire with context, answer space and an explicit handling of unanswered items.
 
-A question about sorting should show two actual orders, specify how ties resolve and say whether the user's answer affects existing lists.
+For two entries with the same date, show both orders and explain which ordering would change existing lists. Include room to reject both. Label the proposed default and the decision that would wait for an answer. On return, record a blank response as open unless the respondent explicitly accepted the default.
 
 **Limit.** Collect only information needed to settle the stated decisions.

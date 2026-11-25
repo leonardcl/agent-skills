@@ -15,6 +15,10 @@ cd agent-skills
 
 Give the assistant a disposable notebook directory containing an `Index.md` file. The entry should credit the session report, keep the count intact and leave task time open. Open the resulting index link. For backlink questions, the [notebook reader](skills/notebook-links/SKILL.md) includes a runnable two-note example and a test for ambiguous names. The [notebook curator](skills/notebook-curator/SKILL.md) follows the structure of a notebook you explicitly select.
 
+## Choose an optional workflow group
+
+For Three.js rendering or games, corporate decisions, financial research, marketing, project learning and communication, see the [offline integration guide](INTEGRATIONS.md). The repository contains the usable instructions and examples. A local copy of this checkout is enough to install the groups.
+
 ## Install one skill
 
 On macOS or Linux run the helper from the checkout with Python 3.9 or later. Choose the discovery directory your host uses. Each command installs one link. The helper reports a conflict and preserves an existing file, directory or link from another installation.

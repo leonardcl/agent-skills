@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Specimen viewer</title>
+<style>
+body { margin: 0 auto; max-width: 42rem; padding: 1rem; color: #163930; font: 1rem system-ui; }
+canvas { display: block; width: 100%; height: min(58vh, 24rem); }
+button { padding: .55rem 1rem; } :focus-visible { outline: 3px solid #bd572c; }
+</style>
+<h1>Specimen viewer</h1>
+<canvas aria-label="Three-dimensional blue specimen"></canvas>
+<p><button type="button">Select specimen</button> <output aria-live="polite">Unselected</output></p>
+<script type="module" src="scene.js"></script></html>

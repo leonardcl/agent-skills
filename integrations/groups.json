@@ -1,0 +1,48 @@
+{
+  "rendering": [
+    "threejs"
+  ],
+  "games": [
+    "threejs-game-creation"
+  ],
+  "corporate": [
+    "corporate-decisions",
+    "corporate-financial-analysis",
+    "corporate-people-operations",
+    "corporate-commercial-planning",
+    "corporate-product-delivery",
+    "corporate-data-research",
+    "corporate-legal-procurement",
+    "corporate-desk-documents"
+  ],
+  "markets": [
+    "public-market-research"
+  ],
+  "marketing": [
+    "marketing-research-conversion",
+    "marketing-acquisition",
+    "marketing-lifecycle",
+    "marketing-positioning"
+  ],
+  "learning": [
+    "cycle",
+    "continuous-learning-v2"
+  ],
+  "communication": [
+    "brand-voice",
+    "answer-first"
+  ],
+  "existing-equivalents": [
+    "audience-copy",
+    "behavior-first-tests",
+    "behavior-specification",
+    "copy-edit",
+    "editorial-constraints",
+    "module-boundaries",
+    "plain-language-edit",
+    "review-code-contracts",
+    "verify-user-path",
+    "visual-direction",
+    "write-agent-instructions"
+  ]
+}

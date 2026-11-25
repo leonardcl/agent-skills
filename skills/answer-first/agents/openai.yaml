@@ -1,0 +1,6 @@
+interface:
+  display_name: "Answer First"
+  short_description: "Give the answer first and preserve key evidence"
+  default_prompt: "Use $answer-first for this response."
+policy:
+  allow_implicit_invocation: false

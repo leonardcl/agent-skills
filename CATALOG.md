@@ -104,3 +104,29 @@ Choose a workflow by its intended result. Follow its link for an input you can t
 | [Motion opportunities](skills/motion-opportunities/SKILL.md) | Identify interface changes that would benefit from motion. | [Adaptation](skills/motion-opportunities/ORIGIN.md) |
 | [Motion code audit](skills/motion-code-audit/SKILL.md) | Audit existing animation code and prioritize fixes with reproducible evidence. | [Adaptation](skills/motion-code-audit/ORIGIN.md) |
 | [Motion review](skills/motion-review/SKILL.md) | Review an implemented animation for timing, interruption and accessibility. | [Adaptation](skills/motion-review/ORIGIN.md) |
+
+## Rendering, games, business and personal workflows
+
+See the [integration guide](INTEGRATIONS.md) for the source-to-local mapping, optional group installation and worked offline tasks.
+
+| Workflow | Use it to | Origin |
+| --- | --- | --- |
+| [Three.js](skills/threejs/SKILL.md) | Build or diagnose a browser 3D scene, including assets, materials, camera, lighting, interaction and frame budget. | [Source and edition](skills/threejs/ORIGIN.md) |
+| [Three.js game creation](skills/threejs-game-creation/SKILL.md) | Build an offline Three.js game loop with player input, a goal, feedback, replay and observable release checks. | [Source and edition](skills/threejs-game-creation/ORIGIN.md) |
+| [Corporate decisions](skills/corporate-decisions/SKILL.md) | Prepare leadership decisions, governance materials and evidence-backed operating reviews. | [Source and edition](skills/corporate-decisions/ORIGIN.md) |
+| [Corporate financial analysis](skills/corporate-financial-analysis/SKILL.md) | Prepare corporate finance models, deal documents and diligence checks from supplied records. | [Source and edition](skills/corporate-financial-analysis/ORIGIN.md) |
+| [Corporate people operations](skills/corporate-people-operations/SKILL.md) | Prepare job materials, people-process reviews and operational improvement plans from supplied evidence. | [Source and edition](skills/corporate-people-operations/ORIGIN.md) |
+| [Corporate commercial planning](skills/corporate-commercial-planning/SKILL.md) | Prepare fictional account briefs, sales collateral and customer-success decisions from a supplied packet. | [Source and edition](skills/corporate-commercial-planning/ORIGIN.md) |
+| [Corporate product delivery](skills/corporate-product-delivery/SKILL.md) | Plan and review product and engineering work from local specifications, change records and observed service behavior. | [Source and edition](skills/corporate-product-delivery/ORIGIN.md) |
+| [Corporate data research](skills/corporate-data-research/SKILL.md) | Summarize, check and visualize supplied tabular data using reproducible local analysis. | [Source and edition](skills/corporate-data-research/ORIGIN.md) |
+| [Corporate legal procurement](skills/corporate-legal-procurement/SKILL.md) | Prepare document issue lists, supplier comparisons and procurement decisions using supplied requirements. | [Source and edition](skills/corporate-legal-procurement/ORIGIN.md) |
+| [Corporate desk documents](skills/corporate-desk-documents/SKILL.md) | Create and review ordinary editable business documents, slides and tables using installed local editors. | [Source and edition](skills/corporate-desk-documents/ORIGIN.md) |
+| [Public market research](skills/public-market-research/SKILL.md) | Compare supplied public market snapshots, filings and estimates for read-only financial research. | [Source and edition](skills/public-market-research/ORIGIN.md) |
+| [Marketing research conversion](skills/marketing-research-conversion/SKILL.md) | Turn supplied customer observations and funnel counts into a conversion diagnosis and a testable experiment. | [Source and edition](skills/marketing-research-conversion/ORIGIN.md) |
+| [Marketing acquisition](skills/marketing-acquisition/SKILL.md) | Prepare acquisition and content plans, technical discovery reviews and creative briefs using supplied public material. | [Source and edition](skills/marketing-acquisition/ORIGIN.md) |
+| [Marketing lifecycle](skills/marketing-lifecycle/SKILL.md) | Design and measure onboarding, retention, referral and lifecycle communications from local fixtures. | [Source and edition](skills/marketing-lifecycle/ORIGIN.md) |
+| [Marketing positioning](skills/marketing-positioning/SKILL.md) | Develop grounded positioning, offers and marketing decisions from customer evidence and practical constraints. | [Source and edition](skills/marketing-positioning/ORIGIN.md) |
+| [Cycle](skills/cycle/SKILL.md) | Close a selected project session by reconciling verified outcomes, decisions and open questions with existing records. | [Source and edition](skills/cycle/ORIGIN.md) |
+| [Continuous learning v2](skills/continuous-learning-v2/SKILL.md) | Review selected redacted project observations, maintain scoped candidate lessons and promote a reviewed lesson only on explicit request. | [Source and edition](skills/continuous-learning-v2/ORIGIN.md) |
+| [Brand voice](skills/brand-voice/SKILL.md) | Build and apply a voice profile from selected writing scoped to a brand, language, audience and channel. | [Source and edition](skills/brand-voice/ORIGIN.md) |
+| [Answer first](skills/answer-first/SKILL.md) | Use a user-selected answer-first style for statuses, reviews and decisions. | [Source and edition](skills/answer-first/ORIGIN.md) |

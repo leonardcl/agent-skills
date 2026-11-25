@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tile walk</title><style>
+body { max-width: 40rem; margin: auto; padding: 1rem; font: 1rem system-ui; color: #244334; }
+canvas { display: block; width: 100%; height: min(45vh, 16rem); }
+button { padding: .65rem 1rem; } :focus-visible { outline: 3px solid #9e3d11; }
+</style><h1>Tile walk</h1><p>Use the arrow keys or the direction buttons to collect three amber tiles.</p>
+<canvas aria-label="Tile collecting board"></canvas><p><output aria-live="polite"></output></p>
+<button id="left">Left</button> <button id="right">Right</button> <button id="reset">Restart</button>
+<script type="module" src="game.js"></script></html>

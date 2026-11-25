@@ -1,0 +1,5 @@
+interface:
+  display_name: "Draft from fragments"
+  short_description: "Draft from fragments workflow and worked example"
+policy:
+  allow_implicit_invocation: false

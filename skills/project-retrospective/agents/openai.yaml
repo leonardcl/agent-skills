@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project retrospective"
+  short_description: "Project retrospective workflow and worked example"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Design alternatives"
+  short_description: "Design alternatives workflow and worked example"
+policy:
+  allow_implicit_invocation: false

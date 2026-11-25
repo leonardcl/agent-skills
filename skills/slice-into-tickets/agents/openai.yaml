@@ -1,0 +1,5 @@
+interface:
+  display_name: "Slice into tickets"
+  short_description: "Slice into tickets workflow and worked example"
+policy:
+  allow_implicit_invocation: false

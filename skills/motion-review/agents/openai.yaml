@@ -1,0 +1,5 @@
+interface:
+  display_name: "Motion review"
+  short_description: "Motion review workflow and worked example"
+policy:
+  allow_implicit_invocation: false

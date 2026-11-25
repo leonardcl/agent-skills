@@ -1,0 +1,42 @@
+{
+  "name": "Study and reading room",
+  "site": {
+    "lot": [
+      0,
+      0,
+      7,
+      5
+    ]
+  },
+  "levels": [
+    {
+      "id": "ground",
+      "name": "Ground",
+      "height": 2.8,
+      "rooms": [
+        {
+          "id": "reading",
+          "name": "Reading",
+          "use": "living",
+          "rect": [
+            0.5,
+            0.5,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "study",
+          "name": "Study",
+          "use": "study",
+          "rect": [
+            3.5,
+            0.5,
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

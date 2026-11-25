@@ -1,0 +1,5 @@
+interface:
+  display_name: "Component selection"
+  short_description: "Component selection workflow and worked example"
+policy:
+  allow_implicit_invocation: false

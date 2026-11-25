@@ -1,0 +1,5 @@
+interface:
+  display_name: "Decision questionnaire"
+  short_description: "Decision questionnaire workflow and worked example"
+policy:
+  allow_implicit_invocation: false

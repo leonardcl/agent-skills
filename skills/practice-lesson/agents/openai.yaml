@@ -1,0 +1,5 @@
+interface:
+  display_name: "Practice lesson"
+  short_description: "Practice lesson workflow and worked example"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Interface review scope"
+  short_description: "Interface review scope workflow and worked example"
+policy:
+  allow_implicit_invocation: false

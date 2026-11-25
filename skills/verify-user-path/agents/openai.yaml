@@ -1,0 +1,5 @@
+interface:
+  display_name: "Verify user path"
+  short_description: "Verify user path workflow and worked example"
+policy:
+  allow_implicit_invocation: false

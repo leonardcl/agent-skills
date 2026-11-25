@@ -1,0 +1,5 @@
+interface:
+  display_name: "Compare ui variants"
+  short_description: "Compare ui variants workflow and worked example"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Explain ui effect"
+  short_description: "Explain ui effect workflow and worked example"
+policy:
+  allow_implicit_invocation: false

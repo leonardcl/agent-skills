@@ -1,0 +1,5 @@
+interface:
+  display_name: "Behavior specification"
+  short_description: "Behavior specification workflow and worked example"
+policy:
+  allow_implicit_invocation: false

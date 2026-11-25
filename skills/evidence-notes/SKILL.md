@@ -16,3 +16,7 @@ Find the relevant note in the notebook the user selected. Read its surrounding s
 ## Worked example
 
 Three of four participants found the receipt link in checkout layout B without a hint. Nobody measured task time. Save the observed count and prototype version with the session notes. Leave checkout speed as an open question.
+
+**Expected result.** A linked observation attributes the count to the session report and leaves task time open.
+
+**Limit.** An observation about four participants cannot establish a population-wide rate.

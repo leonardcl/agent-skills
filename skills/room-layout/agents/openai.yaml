@@ -1,0 +1,5 @@
+interface:
+  display_name: "Room layout"
+  short_description: "Room layout workflow and worked example"
+policy:
+  allow_implicit_invocation: false

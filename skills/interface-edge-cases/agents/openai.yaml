@@ -1,0 +1,5 @@
+interface:
+  display_name: "Interface edge cases"
+  short_description: "Interface edge cases workflow and worked example"
+policy:
+  allow_implicit_invocation: false

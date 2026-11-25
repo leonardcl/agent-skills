@@ -7,6 +7,8 @@ description: "Draft a post from a brief and check whether its factual claims fit
 
 Draft a post from a brief and check whether its factual claims fit the source.
 
+If the brief supplies a voice profile, select its brand, language, audience and channel before drafting. Use Brand voice when the task is to derive that profile from selected samples.
+
 ## Workflow
 
 1. Identify who needs the information, the channel, the action and which details are cleared for use.

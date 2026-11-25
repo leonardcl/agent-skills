@@ -7,6 +7,8 @@ description: "Apply project-specific editorial decisions and document justified 
 
 Apply project-specific editorial decisions and document justified exceptions.
 
+When applying a Brand voice profile, distinguish explicit owner rules from observed tendencies. A one-off sample can explain an exception without creating a house-wide rule.
+
 ## Workflow
 
 1. Collect the current project brief, terminology list and intended audience. Identify which rule applies to the disputed term.

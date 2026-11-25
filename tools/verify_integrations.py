@@ -2,6 +2,7 @@
 import csv
 import json
 import re
+import sqlite3
 import subprocess
 import sys
 import tempfile
@@ -67,11 +68,18 @@ def check_ledger(folder):
     alpha("revise", "label", "Check title wrap only in narrow rows")
     alpha("review", "label", "accepted")
     assert alpha("promote", "label", "shared", "Check title wrap") == {"destination":"shared", "wording":"Check title wrap"}
+    alpha("promote", "label", "shared", "Check title wrap")
+    assert alpha("show", "label")["approved_promotions"] == [["shared", "Check title wrap"]]
     assert alpha("review", "label", "retired")["status"] == "retired"
     call("beta", "a.sqlite", "show", "label", expected=1)
     call("beta", "b.sqlite", "propose", "other", "Use a labeled sample")
     call("beta", "b.sqlite", "show", "label", expected=1)
     assert b"example-only" not in (folder / "a.sqlite").read_bytes()
+    with sqlite3.connect(folder / "other.sqlite") as other:
+        other.execute("CREATE TABLE books (title TEXT)")
+    before = (folder / "other.sqlite").read_bytes()
+    call("beta", "other.sqlite", "propose", "other", "Use a labeled sample", expected=1)
+    assert (folder / "other.sqlite").read_bytes() == before
     print("project isolation, duplicate, contradiction, correction, retirement, explicit promotion and private-marker exclusion passed")
 
 

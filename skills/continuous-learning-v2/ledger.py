@@ -46,6 +46,9 @@ def parser():
 
 def apply(db, args):
     db.execute("BEGIN IMMEDIATE")
+    tables = {row[0] for row in db.execute("SELECT name FROM sqlite_schema WHERE type='table'")}
+    if tables and not {"scope", "lessons", "events", "promotions"} <= tables:
+        raise ValueError("choose a new file or an existing lesson ledger")
     db.execute("CREATE TABLE IF NOT EXISTS scope (singleton INTEGER PRIMARY KEY CHECK(singleton=1), project TEXT NOT NULL)")
     db.execute("INSERT OR IGNORE INTO scope VALUES (1, ?)", (args.project,))
     if db.execute("SELECT project FROM scope").fetchone()[0] != args.project:
@@ -81,7 +84,12 @@ def apply(db, args):
         return {"destination":args.destination, "wording":args.wording}
     wording,status = db.execute("SELECT wording,status FROM lessons WHERE id=?", key).fetchone()
     events = db.execute("SELECT id,direction,evidence FROM events WHERE lesson=? ORDER BY id", key).fetchall()
-    return {"lesson":args.lesson, "status":status, "wording":wording, "observations":events}
+    result = {"lesson": args.lesson, "status": status, "wording": wording, "observations": events}
+    if args.action == "show":
+        result["approved_promotions"] = db.execute(
+            "SELECT destination,wording FROM promotions WHERE lesson=? ORDER BY destination,wording", key
+        ).fetchall()
+    return result
 
 
 def main():

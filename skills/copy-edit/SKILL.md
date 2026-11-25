@@ -7,6 +7,8 @@ description: "Revise audience-facing copy while preserving the author's voice an
 
 Revise audience-facing copy while preserving the author's voice and supporting facts.
 
+When a scoped voice profile exists, use its sample IDs to justify voice changes. Keep the original source facts beside it. Brand voice handles requests to derive a new profile.
+
 ## Workflow
 
 Read a short passage of the author's approved copy beside the draft. Identify the audience's next decision and the voice features worth keeping, such as a direct invitation or a recurring technical term. Preserve quoted wording and source facts when cutting.
